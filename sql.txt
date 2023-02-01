@@ -1,0 +1,2 @@
+ALTER TABLE `easypay`.`replace_recharge_manager` 
+MODIFY COLUMN `remarks` varchar(500) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '备注' AFTER `auditor_id`;
